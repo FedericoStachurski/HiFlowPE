@@ -1,10 +1,10 @@
 # model_components.py
 
+from .initial_classes import BasePrior, BaseLikelihood
 import numpy as np
-from scipy.stats import uniform, norm
-from initial_classes import BasePrior, BaseLikelihood
 import torch
-from initial_classes import BaseLikelihood
+from scipy.stats import uniform, norm
+
 
 ##################################################
 ################## Priors ########################
